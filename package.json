@@ -32,7 +32,11 @@
     "prettier": "^1.5.3"
   },
   "homepage": "https://vgvenkat.com",
-  "keywords": ["Venkat", "Blog", "gatsby"],
+  "keywords": [
+    "Venkat",
+    "Blog",
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
