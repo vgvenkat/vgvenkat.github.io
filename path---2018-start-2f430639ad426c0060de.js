@@ -1,0 +1,2 @@
+webpackJsonp([0x68c7544081d9],{389:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Venkat's brain",author:"Venkat Ganesan"}},markdownRemark:{id:"/Users/vgvennkat/venkat_work/gatsby-starter-blog/gatsby-blog/src/pages/2018-05-05-Lets-try-this-again/index.md absPath of file >>> MarkdownRemark",html:"<p>Lets try setting up the blog and working on new things again shall we?</p>",frontmatter:{title:"Lets Try this again",date:"May 10, 2018"}}},pathContext:{path:"/2018-start/"}}}});
+//# sourceMappingURL=path---2018-start-2f430639ad426c0060de.js.map

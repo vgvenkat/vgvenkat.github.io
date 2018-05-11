@@ -1,0 +1,2 @@
+webpackJsonp([0xcb02b1202831],{391:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Venkat's brain",author:"Venkat Ganesan"}},markdownRemark:{id:"/Users/vgvennkat/venkat_work/gatsby-starter-blog/gatsby-blog/src/pages/2017-08-26-first-post/index.md absPath of file >>> MarkdownRemark",html:"<p>This is my first blog post in gatsby. A lot of other things to come..😉🎉→🔥</p>",frontmatter:{title:"My First Post!",date:"August 27, 2017"}}},pathContext:{path:"/my-first-post/"}}}});
+//# sourceMappingURL=path---my-first-post-3032941d2f98f0d3af39.js.map

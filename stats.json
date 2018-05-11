@@ -1,0 +1,64 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-d5b330d492e22e970cf2.js",
+      "component---src-pages-index-js-d5b330d492e22e970cf2.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-eda93860395f166e63a4.js",
+      "component---src-templates-blog-post-js-eda93860395f166e63a4.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-b2aaaf4a60d848b2330d.js",
+      "component---src-layouts-index-js-b2aaaf4a60d848b2330d.js.map"
+    ],
+    "path---2018-start": [
+      "path---2018-start-2f430639ad426c0060de.js",
+      "path---2018-start-2f430639ad426c0060de.js.map"
+    ],
+    "path---index": [
+      "path---index-3555e4f94a4e64f33d5b.js",
+      "path---index-3555e4f94a4e64f33d5b.js.map"
+    ],
+    "commons": [
+      "commons-0c961af4250069caef0a.js",
+      "build-js-styles.css",
+      "commons-0c961af4250069caef0a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---youtube-clone": [
+      "path---youtube-clone-b88d95febca861ad3c4c.js",
+      "path---youtube-clone-b88d95febca861ad3c4c.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---my-first-post": [
+      "path---my-first-post-3032941d2f98f0d3af39.js",
+      "path---my-first-post-3032941d2f98f0d3af39.js.map"
+    ],
+    "app": [
+      "app-acbc3c01ce7ac877de2e.js",
+      "build-js-styles.css",
+      "app-acbc3c01ce7ac877de2e.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---video-localhost": [
+      "path---video-localhost-6bf2b2c7df529dc3886c.js",
+      "path---video-localhost-6bf2b2c7df529dc3886c.js.map"
+    ],
+    "path---react-structure": [
+      "path---react-structure-b6ea25c63ba4fcae17a1.js",
+      "path---react-structure-b6ea25c63ba4fcae17a1.js.map"
+    ]
+  }
+}
