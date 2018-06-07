@@ -4,8 +4,6 @@ date: "2018-05-21"
 path: "/seo-basics/"
 ---
 
-# SEO FrontEnd Masters
-
 [Modern SEO.pdf](http://bit.ly/modern-seo)
 
 ## Traditional SEO

@@ -3,7 +3,6 @@ title: Why wont my react component update
 date: "2018-05-24"
 path: "/react16.3-component-update/"
 ---
-# Why wont my react component update?
 
 I recently came across a mind bending problem after I updated to React 16.3.
 

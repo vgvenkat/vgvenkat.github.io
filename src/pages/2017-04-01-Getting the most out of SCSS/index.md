@@ -3,7 +3,6 @@ title: Getting The Most Out Of SCSS
 date: "2017-04-01"
 path: "/get-scss/"
 ---
-# Getting The Most Out Of SCSS
 
 ### What is LibSass, Ruby Sass and Node Sass?
 
