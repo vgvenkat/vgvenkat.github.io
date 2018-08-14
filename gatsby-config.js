@@ -1,14 +1,22 @@
 module.exports = {
   siteMetadata: {
     title: "Venkat's tech blog",
-    author: "Venkat Ganesan"
+    author: 'Venkat Ganesan'
   },
   plugins: [
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/pages`,
+    //     name: "pages"
+    //   }
+    // },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-contentful',
       options: {
-        path: `${__dirname}/src/pages`,
-        name: "pages"
+        spaceId: '50v0f7ey3viz',
+        accessToken:
+          '79e8f0fb3c6e0627dd4a620e781c6dc4037449522869414087a854044db54380'
       }
     },
     {
@@ -27,9 +35,9 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`
             }
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants"
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants'
         ]
       }
     },
@@ -44,9 +52,9 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: "gatsby-plugin-typography",
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: "src/utils/typography"
+        pathToConfigModule: 'src/utils/typography'
       }
     }
   ]

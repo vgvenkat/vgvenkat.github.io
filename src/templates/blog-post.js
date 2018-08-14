@@ -1,61 +1,57 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
+import get from 'lodash/get';
 
-import Bio from '../components/Bio'
-import { rhythm, scale } from '../utils/typography'
+import Bio from '../components/Bio';
+import { rhythm, scale } from '../utils/typography';
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-
+    const { title, content, date } = this.props.data.contentfulBlog;
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    console.log(this.props);
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>
-          {post.frontmatter.title}
-        </h1>
+        <Helmet title={`${title} | ${siteTitle}`} />
+        <h1>{title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
             display: 'block',
             marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
+            marginTop: rhythm(-1)
           }}
         >
-          {post.frontmatter.date}
+          {date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: content.childMarkdownRemark.html }}
+        />
         <hr
           style={{
-            marginBottom: rhythm(1),
+            marginBottom: rhythm(1)
           }}
         />
         <Bio />
       </div>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      id
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
+  query blogPostQuery($slug: String!) {
+    contentfulBlog(slug: { eq: $slug }) {
+      title
+      slug
+      date(formatString: "MMMM DD, YYYY")
+      content {
+        childMarkdownRemark {
+          html
+        }
       }
     }
   }
-`
+`;
